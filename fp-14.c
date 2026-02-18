@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,n;
+    int s=0;
+    scanf("%d",&n);
+    for(i=0;n>0;n=n/10){
+    if(n%2==0){
+    s++;
+    }
+    }
+    printf("%d",s);
+
+    return 0;
+}
